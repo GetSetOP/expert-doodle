@@ -14,7 +14,7 @@ while True:
 
     if length >= 8:
         score += 1
-    if symbol_count >= 2:
+    if has_symbol:
         score += 1
     if has_upper:
         score += 1
